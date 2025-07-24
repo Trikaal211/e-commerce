@@ -3,6 +3,8 @@ import { Products } from '../../Starting-code/data/products'
 import './HomePage.css';
 
 export function HomePage() {
+  fetch('')
+
   return (
     <>
       <Header />
@@ -30,6 +32,7 @@ export function HomePage() {
                    {product.rating.count}
                   </div>
                 </div>
+
 
                 <div className="product-price">
                 ${(product.priceCents/100).toFixed(2)}
